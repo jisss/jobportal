@@ -5,7 +5,7 @@ var $con,$res;
 
 function getconnect()
 {
-$this->con=mysqli_connect("localhost","root","");
+$this->con=mysqli_connect("localhost","root","123");
 mysqli_select_db($this->con,"jobportal");
 }
 
